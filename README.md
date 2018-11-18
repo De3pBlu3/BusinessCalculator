@@ -1,2 +1,4 @@
 # LoanCalculator
-A javascript loan calcualtor for Junior Cert questions and my Junior Cert project.
+A javascript calcualtor for Junior Cert business questions and my Junior Cert project.
+TO DO:
+Add an Irish language version to the tax calculator
