@@ -106,11 +106,11 @@ function myFunction() {
     intrest += left * Apr;
    	count += 1;
 }
-    console.log(intrest);
-    console.log(Cost);
-	var Fin;
-    Fin = parseFloat(intrest + Cost);
-	console.log(Fin);
+ intrest = parseFloat(intrest);
+ Cost = parseFloat(Cost);
+ var Fin;
+ Fin = parseFloat(intrest + Cost);
+ console.log(Fin);
     window.alert("The cost of intrest is €" + intrest + " and the amount you took out in the first place is €" + Cost + " meaning the total cost of your loan is €"+ Fin);
 }
 </script>
