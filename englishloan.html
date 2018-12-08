@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <meta charset=utf-8>
 <html>
 <title>Loan Calculator</title>
@@ -109,9 +109,9 @@ function myFunction() {
     console.log(intrest);
     console.log(Cost);
 	var Fin;
-    Fin = intrest + Cost;
+    Fin = parseFloat(intrest + Cost);
 	console.log(Fin);
-    window.alert("The cost of intrest is " + intrest + " and the amount you took out in the first place is " + Cost);
+    window.alert("The cost of intrest is €" + intrest + " and the amount you took out in the first place is €" + Cost + " meaning the total cost of your loan is €"+ Fin);
 }
 </script>
 

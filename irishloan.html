@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <meta charset=utf-8>
 <html>
 <title>Áireamhán Iasachtaí</title>
@@ -108,9 +108,9 @@ function myFunction() {
     console.log(intrest);
     console.log(Cost);
 	var Fin;
-    Fin = intrest + Cost;
+   Fin = parseFloat(intrest + Cost);
 	console.log(Fin);
-    window.alert("Ba é " + intrest + " praghas an úis agus an méid a ghlac tú ar iasacht sa chéad áit ná " + Cost);
+    window.alert("Ba é " + intrest + " praghas an úis agus an méid a ghlac tú ar iasacht sa chéad áit ná " + Cost + " mar sín tá an coastas iomlan an iasacht €"+ Fin);
 }
 </script>
 

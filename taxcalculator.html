@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <meta charset=utf-8>
 <html>
 <title>Tax Calculator</title>
@@ -148,15 +148,15 @@ function myFunction() {
     console.log("total after tax (nettpay) = " + fin);
 
     if (overcredit == true && over == true){
-      window.alert("You were paid more then the tax cutoff rate, so you paid $" + befsp + " before the tax cutoff and $" + parseFloat(afsp).toFixed(2) +  " after. When you deduct tax cedit from your tax you get $" + parseFloat(cooltax).toFixed(2) + " You also paid $" + parseFloat(aspc).toFixed(2) + " in PRSI tax and $" + parseFloat(usc).toFixed(2) + " in USC. Meaning that the toatal deduction on your pay was $" + parseFloat(alltax).toFixed(2) + " and your nett pay is $" + parseFloat(fin).toFixed(2));
+      window.alert("You were paid more then the tax cutoff rate, so you paid €" + befsp + " before the tax cutoff and €" + parseFloat(afsp).toFixed(2) +  " after. When you deduct tax cedit from your tax you get €" + parseFloat(cooltax).toFixed(2) + " You also paid €" + parseFloat(aspc).toFixed(2) + " in PRSI tax and €" + parseFloat(usc).toFixed(2) + " in USC. Meaning that the toatal deduction on your pay was €" + parseFloat(alltax).toFixed(2) + " and your nett pay is €" + parseFloat(fin).toFixed(2));
 
     }
     if (overcredit == false && over == false){
-      window.alert("Your tax credit was higher then the amount of tax you would have paid, so you don't pay normal tax. You do still pay $" + parseFloat(aspc).toFixed(2) + " in PRSI tax and $" + parseFloat(usc).toFixed(2) + " in USC. Your toatal deductions are $" + parseFloat(alltax).toFixed(2) + " and your nett pay is $" + parseFloat(fin).toFixed(2));
+      window.alert("Your tax credit was higher then the amount of tax you would have paid, so you don't pay normal tax. You do still pay €" + parseFloat(aspc).toFixed(2) + " in PRSI tax and €" + parseFloat(usc).toFixed(2) + " in USC. Your toatal deductions are €" + parseFloat(alltax).toFixed(2) + " and your nett pay is €" + parseFloat(fin).toFixed(2));
 
     }
    if (over == false){
-      window.alert("You were payed less then the tax cutoff rate so you paid $" + parseFloat(cooltax).toFixed(2) + " in tax. You also pay $" +  parseFloat(aspc).toFixed(2)  + " in PRSI tax and $" +  parseFloat(usc).toFixed(2)  + " in USC. Your toatal deductions are $" +  parseFloat(alltax).toFixed(2)  + " and your nett pay is $" +  parseFloat(fin).toFixed(2) );
+      window.alert("You were payed less then the tax cutoff rate so you paid €" + parseFloat(cooltax).toFixed(2) + " in tax. You also pay €" +  parseFloat(aspc).toFixed(2)  + " in PRSI tax and €" +  parseFloat(usc).toFixed(2)  + " in USC. Your toatal deductions are €" +  parseFloat(alltax).toFixed(2)  + " and your nett pay is €" +  parseFloat(fin).toFixed(2) );
 
 }
 
