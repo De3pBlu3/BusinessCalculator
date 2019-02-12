@@ -105,10 +105,10 @@ function myFunction() {
     intrest += left * Apr;
    	count += 1;
 }
- intrest = parseFloat(intrest);
- Cost = parseFloat(Cost);
+ intrest = parseFloat(intrest).toFixed(2);
+ Cost = parseFloat(Cost).toFixed(2);
  var Fin;
- Fin = parseFloat(intrest + Cost);
+ Fin = parseFloat(intrest + Cost).toFixed(2);
  console.log(Fin);
     window.alert("Ba é " + intrest + " praghas an úis agus an méid a ghlac tú ar iasacht sa chéad áit ná " + Cost + " mar sín tá an coastas iomlan an iasacht €"+ Fin);
 }
