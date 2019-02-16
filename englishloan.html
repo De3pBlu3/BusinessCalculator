@@ -106,8 +106,8 @@ function myFunction() {
     intrest += left * Apr;
    	count += 1;
 }
-intrest = Math.round(intrest * 100) / 100;
-Cost = Math.round(Cost * 100) / 100;
+intrest = parseFloat(Math.round(intrest * 100) / 100);
+Cost = parseFloat(Math.round(Cost * 100) / 100);
  var Fin;
  Fin = parseFloat(intrest + Cost);
  console.log(Fin);
@@ -117,4 +117,3 @@ Cost = Math.round(Cost * 100) / 100;
 
 </body>
 </html>
-#
